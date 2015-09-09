@@ -1,5 +1,5 @@
 <?php // @start snippet
-include 'Services/Twilio/Capability.php';
+include 'twilio-php-master/Services/Twilio/Capability.php';
 $accountSid = 'ACxxxxxxxxxx';
 $authToken  = 'xxxxxxxxxxxx';
 $token = new Services_Twilio_Capability($accountSid, $authToken);
