@@ -3,7 +3,7 @@ include 'twilio-php-master/Services/Twilio/Capability.php';
 $accountSid = 'AC09a199fd889a454b44b0dff81480e445';
 $authToken  = '0ffad56024ce0e88030c49309d480008';
 $token = new Services_Twilio_Capability($accountSid, $authToken);
-$token->allowClientOutgoing('APxxxxxxxxxx'); // @end snippet
+$token->allowClientOutgoing('AP33aff95ead9e1ac06ec19de609dbd557'); // @end snippet
 ?>
 
 <!DOCTYPE HTML>
